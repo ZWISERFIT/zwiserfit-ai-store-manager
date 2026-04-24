@@ -142,3 +142,11 @@ ZWISERFIT 核心解法：
 ZWISERFIT AI Store Manager 是面向运动健康实体的**开源多智能体AI运营系统**。
 依托一线门店实战经验，以AI协同实现降本增效，以ZXF-20标准化数据协议为长期底座，
 兼顾实体经营刚需与合规RWA生态布局，为千万实体创业者提供一套**低门槛、可落地、可进化、可共建**的AI数字化解决方案。
+
+## 📬 联系与共建
+
+- **技术问题 / 功能建议**：欢迎提交 [GitHub Issue](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager/issues)
+- **生态合作 / 投资接洽**：发送邮件至 founder@zwiserfit.com
+- **加入生态联盟**：查看 [生态联盟加入指南](./ecosystem/join.md)
+
+> ⚠ 邮件标题请注明 `[ZWISERFIT合作] - 您的公司/姓名`，以便快速识别并回复。
