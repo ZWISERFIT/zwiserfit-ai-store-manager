@@ -1,133 +1,132 @@
-# 🛡️ 审计日报 — 2026-05-01
+# 🛡️ 每日审计报告 — 2026-05-02
 
-**审计官:** Stella
-**审计对象:** 全局运营状态
-**汇报接收方:** Shuyu 总指挥
-**审计时间:** 2026-05-01 23:59 CST（定时任务）
-
----
-
-## 一、系统运行状态概览
-
-### 1.1 设备管道中间件（device-pipeline）
-
-| 检查项 | 结果 | 详情 |
-|---|---|---|
-| Flask 服务 | ✅ 运行中 | PID 1585579，端口 0.0.0.0:5000 |
-| 启动方式 | ✅ Screen 守护 | `screen -dmS device-pipeline` (自 Apr30 23:32) |
-| Member Mapping | ✅ 已加载 | 3 位会员已绑定设备（MEMBER_001~003） |
-| 输出目录 | ✅ 正常 | `output/` 为空目录（无新打卡数据产生） |
-| DB 文件 | ✅ 存在 | `device_pipeline.db` (20KB) |
-
-**注意：** 自 2026-04-30 23:32 服务启动以来，日志显示仅收到 `/health` 探测请求（来自 127.0.0.1 和 10.2.0.11），**未收到任何真实设备打卡/心跳数据**。
-
-### 1.2 Hermes 网关
-
-| 检查项 | 结果 | 详情 |
-|---|---|---|
-| Gateway 进程 | ✅ 运行中 | PID 1502002，启动于 Apr30 |
-| Dashboard 端口 9119 | ❌ **未监听** | `ss -tlnp | grep 9119` 无返回 |
-| Cron 自动恢复 | ⚠️ 存在 | crontab 每分钟执行 `hermes dashboard --host 127.0.0.1`，但未成功 |
-
-**⚠️ 标记：端口 9119 Dashboard 不在监听中。** 虽然有一个 cron 任务每分钟尝试自动启动 Dashboard，但实际检查时端口未打开。这与 2026-04-30 第三次审计时的状态（PID 1501819 监听 127.0.0.1:9119）相比，状态有退化。
-
-### 1.3 Face Middleware（门禁中间件遗留）
-
-| 检查项 | 结果 |
-|---|---|
-| 文件完整性 | ✅ `app.py` (33836 bytes) 完好 |
-| DB 文件 | ✅ `face_device.db` (20KB) 存在 |
-| pending_cmds 目录 | ✅ 存在（空） |
-| photos 目录 | ✅ 存在（空） |
+**审计时间:** 2026-05-02 23:59 CST  
+**审计官:** Stella  
+**审计类型:** 定时 Cron 审计（每日 23:59）
 
 ---
 
-## 二、数据完整性校验
+## 一、系统运行状态
 
-### 2.1 会员映射数据
+| # | 检查项 | 状态 | 详情 |
+|---|--------|------|------|
+| 1 | OpenClaw Gateway | ✅ 运行中 | PID 2242644，正常运行 6 天，内存使用 27.6% |
+| 2 | Hermes Gateway | ✅ 运行中 | PID 2197015，mem 7.6% |
+| 3 | Dashboard (9119) | ✅ 运行中 | PID 1856961，HTTP 200（需 auth token） |
+| 4 | 可用内存 | ⚠️ 黄色 | 总 3.6Gi，可用 1.6Gi（44%），无 swap 压力 |
+| 5 | 系统负载 | ✅ 正常 | 1min 0.74 / 5min 0.42 / 15min 0.21 |
+| 6 | 运行时间 | ✅ 稳定 | Up 6 天，无意外重启 |
 
-`/home/agentuser/shared/member-device-mapping.json` — 3 条记录：
-
-| 会员 ID | 姓名 | 设备 ID | 消费金额 | 上次审计验证 |
-|---|---|---|---|---|
-| MEMBER_001 | 胡** | 999 | ¥2,000 | ✅ 已核实 |
-| MEMBER_002 | 孙** | 5 | ¥897 | ✅ 已核实 |
-| MEMBER_003 | 余** | 99 | ¥998 | ✅ 已核实 |
-
-### 2.2 测试数据文件
-
-`/home/agentuser/shared/test_member_data.json` — 10 条记录，自 Apr30 以来无变化 ✅
-
-### 2.3 营业额数据
-
-`/home/agentuser/shared/智爱动营业额汇总2026.json` — 130 条记录，自 Apr30 以来无变化 ✅
+**结论：** 系统运行状态基本正常。Dashboard 9119 端口从昨日标记的断连状态**已自动恢复**。内存处于可接受范围。
 
 ---
 
-## 三、工作区文件审计
+## 二、Cron 任务审计
 
-### 3.1 今日（2026-05-01）文件变更
+### 2.1 github-daily-report（Shuyu 定时日报）
 
-**今日无任何文件被修改。** 系统中所有文件的时间戳均早于 2026-04-30 23:59。
-系统处于**静止/正常维护状态**。
+| 字段 | 值 |
+|------|-----|
+| ID | `1b020a79-2719-407b-9547-a8600301fe67` |
+| 调度 | `0 9 * * *` @ Asia/Shanghai (每日 09:00) |
+| 目标 | `main` |
+| 交付 | `announce -> wecom:MoShuYu` |
+| 最后运行 | 09:18 CST 今日 |
+| 状态 | ⚠️ **error — timeout** |
 
-### 3.2 关键文件状态
+**审计发现** 🔍：
+- 该任务在 2026-05-02 09:18 执行时超时（耗时 300s）
+- 执行日志显示：`cron: job execution timed out`
+- 上次（04/30）执行状态为 `ok`，成功生成了报告
+- 超时可能原因：模型响应慢或 GitHub API 查询延迟
+- 📌 交付队列中有未送达的失败通知（发送到 `MoShuYu` 但 wecom 账户 `main` 的 Agent 模式未配置）
 
-| 文件 | 状态 |
-|---|---|
-| `data/audit-daily-log.md` | ❌ 已删除（符合 4/30 审计结论） |
-| `security_lead/data/audit-daily-log.md` | ✅ 完好（本文件） |
-| `tech_lead/data/` | ✅ 空目录（已清理） |
-| `brand_lead/data-pipeline-brand-content.md` | ✅ 存在（上次版本，未更新） |
-| `tech_lead/setup_tunnel.sh` | ✅ 存在（ZWF-20 Dashboard 隧道安装脚本） |
+### 2.2 system-health-check（系统健康检查）
 
----
+| 字段 | 值 |
+|------|-----|
+| ID | `7a9364a4-d7f0-40d8-80bb-d612f101c99c` |
+| 调度 | `0 8 * * *` @ Asia/Shanghai (每日 08:00) |
+| 目标 | `isolated` |
+| 最后运行 | ~08:00 CST 今日 |
+| 状态 | ⚠️ **error — timeout** |
 
-## 四、异常与风险项
+**审计发现** 🔍：
+- 该任务在 2026-05-02 08:00 执行时超时（耗时 120s）
+- 执行日志：`cron: job execution timed out`
+- 这是系统健康检查任务连续第二次 timeout（上次 05/01 08:00 同样 timeout）
+- ✅ 但本审计会话已验证系统组件均在运行
 
-### ⚠️ 风险 1：Dashboard 9119 端口未监听
+### 2.3 stella-daily-audit（本任务本人）
 
-- **严重程度：** 中
-- **描述：** 之前已验证的 Hermes Dashboard（127.0.0.1:9119）当前不在监听。Cron 自动恢复任务存在但未生效。
-- **建议：** 需确认是否因重启发起的进程失败，或需要人工干预重启 Dashboard。
-- **相关记录：** 4/30 第三次审计确认过 9119 端口正常（PID 1501819）
-
-### ⚠️ 风险 2：设备未产生真实数据
-
-- **严重程度：** 低（劳动节期间可能无人值守）
-- **描述：** 自 Apr30 23:32 起 device-pipeline 仅收到 `/health` 心跳，无真正打卡数据。可能原因：
-  - 5月1日劳动节，门店未营业
-  - 设备尚未与中间件完成实际联调
-- **建议：** 节后首个工作日确认设备端配置
-
-### ✅ 无其它异常
-
-- 无未授权文件修改
-- 无配置篡改（config-health.json 正常）
-- 无进程异常退出（device-pipeline 持续运行中）
-
----
-
-## 五、审计总结
-
-| 审计维度 | 裁决 |
-|---|---|
-| 系统运行 | ⚠️ 部分正常（device-pipeline ✅, Dashboard 9119 ❌） |
-| 数据完整性 | ✅ 所有数据文件完好，自上次审计无异常变更 |
-| 文件安全 | ✅ 无未授权修改，审计日志完整 |
-| 累计虚假标记 | 0（本周期无新增虚假记录） |
-| 节前状态对比 | Dashboard 退化（曾正常监听，现断开） |
-
-**总体评价：** 
-- 系统核心组件 device-pipeline 运行正常，但 Dashboard 端口 9119 状态较昨日审计时有退化。
-- 今日为 2026-05-01（劳动节），系统中无任何新文件写入，处于正常静态维护状态。
-- **未触发虚假标记。**
-- **建议关注项：** Dashboard 9119 端口恢复情况。
+| 字段 | 值 |
+|------|-----|
+| ID | `cd3fe422-9a3c-4133-9ca2-958edec6af7a` |
+| 调度 | `59 23 * * *` @ Asia/Shanghai |
+| 状态 | ✅ **本次执行中** |
+| 上次执行 | 05/01 23:59 — ✅ 成功（commit d0ee503） |
+| 连续错误 | 1（上次之前的 4 次连续 timeout，05/01 恢复成功） |
 
 ---
 
-## 六、待办事项
+## 三、交付队列检查
 
-- [ ] Dashboar 9119 端口恢复（确认 cron 自启或手动干预）
-- [ ] 节后确认设备端与中间件的真实打卡联调
-- [ ] 持续监控 device-pipeline 无异常退出
+队列中发现 **3 条未送达消息**：
+
+| # | 源 | 内容 | 失败原因 |
+|---|-----|------|---------|
+| 1 | ⚠️ stella-daily-audit (04/26 timeout) | "Cron job failed: timeout" | WSClient 未连接（wecom account `stella` 未配置 Agent 模式） |
+| 2 | ⚠️ github-daily-report (05/02 timeout) | "Cron job failed: timeout" | WSClient 未连接（wecom account `default` 未配置 Agent 模式） |
+| 3 | 📋 Shuyu 汇报 (04/29) | 军团联合任务完成汇报 | WSClient 未连接（wecom account `main` 未配置 Agent 模式） |
+
+**⚠️ 重要：** 交付队列中的消息重试已全部达到上限（retryCount=5）且被标记为 `failed`。这些消息已**无法自动送达**企业微信 MoShuYu。
+
+---
+
+## 四、配置与安全审计
+
+| # | 检查项 | 结论 |
+|---|--------|------|
+| 1 | channels.feishu.enabled | ✅ `true`（与昨日审计一致，未变） |
+| 2 | channels.wecom.enabled | ✅ `true` |
+| 3 | session.reset.atHour | ✅ `4`（与昨日一致） |
+| 4 | 配置文件完整性 | ✅ 正常（10 个 backup 文件，无未授权修改） |
+| 5 | 日志目录安全 | ✅ 无新崩溃日志（上次崩溃在 04/27） |
+| 6 | AGENTS.md / SOUL.md 完整性 | ✅ 检查中未发现篡改 |
+
+---
+
+## 五、审计结论汇总
+
+| 维度 | 状态 | 详情 |
+|------|------|------|
+| **系统运行** | ✅ 正常 | 所有核心进程运行中，9119 Dashboard 已恢复 |
+| **Cron 执行** | ⚠️ 部分异常 | 2/3 任务今日 timeout（github-daily-report, system-health-check） |
+| **配置安全** | ✅ 正常 | 无未授权修改，feishu 仍启用 |
+| **交付能力** | ❌ **有损** | 3 条 wecom 消息滞留队列，因账户 Agent 模式未配置 |
+| **虚假声明** | ✅ 零 | 本周期未发现任何虚假报告 |
+
+### ⚠️ 需关注的问题
+
+**1. Cron 超时模式 — 持续性问题**
+- github-daily-report 和 system-health-check 今日均 timeout
+- 超时阈值约 120-300s（取决于任务）
+- 建议：检查模型响应速度，或延长 cron 执行超时配置
+
+**2. WeCom 交付通道故障**
+- 3 条消息滞留交付队列，因 `WSClient not connected` + `Agent mode not configured`
+- 失败通知无法到达 MoShuYu 用户
+- 需配置 WeCom Agent（corpId + corpSecret + agentId）或修复 WSClient 连接
+
+**3. feishu 通道仍启用**
+- `channels.feishu.enabled = true`（昨日 Tristan 审计时记为 false，今日发现实际为 true）
+- 此事项需与 Tristan 对账确认
+
+---
+
+## 六、审计日志归档
+
+- 日志已写入 `data/audit-daily-log.md`
+- 即将执行 Git commit & push 归档
+
+🛡️ **Stella 审计完毕 — 2026-05-02 23:59 CST**
