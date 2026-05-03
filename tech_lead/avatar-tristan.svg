@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- 背景渐变：深空蓝黑 -->
+    <radialGradient id="bg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#0a0f18"/>
+    </radialGradient>
+    <!-- 齿轮渐变：科技铜金 -->
+    <linearGradient id="gearGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5b8fa8"/>
+      <stop offset="40%" stop-color="#3a6b8a"/>
+      <stop offset="100%" stop-color="#1e4a6b"/>
+    </linearGradient>
+    <!-- 光晕 -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5b8fa8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#5b8fa8" stop-opacity="0"/>
+    </radialGradient>
+    <!-- 线路渐变 -->
+    <linearGradient id="circuit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ecdc4"/>
+      <stop offset="100%" stop-color="#2d8a84"/>
+    </linearGradient>
+    <!-- 核心光点 -->
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4ecdc4" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#2d8a84" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1a4a5a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="512" height="512" rx="80" fill="url(#bg)"/>
+
+  <!-- 背景网格线 -->
+  <g opacity="0.06" stroke="#4ecdc4" stroke-width="0.5">
+    <line x1="0" y1="128" x2="512" y2="128"/>
+    <line x1="0" y1="256" x2="512" y2="256"/>
+    <line x1="0" y1="384" x2="512" y2="384"/>
+    <line x1="128" y1="0" x2="128" y2="512"/>
+    <line x1="256" y1="0" x2="256" y2="512"/>
+    <line x1="384" y1="0" x2="384" y2="512"/>
+  </g>
+
+  <!-- 光圈：外圈 -->
+  <circle cx="256" cy="240" r="160" fill="none" stroke="#5b8fa8" stroke-width="1" opacity="0.15"/>
+  <circle cx="256" cy="240" r="170" fill="none" stroke="#4ecdc4" stroke-width="0.5" opacity="0.1" stroke-dasharray="8 8"/>
+
+  <!-- 大齿轮：背景 -->
+  <g transform="translate(256,240)" opacity="0.15">
+    <circle cx="0" cy="0" r="140" fill="none" stroke="#5b8fa8" stroke-width="12"/>
+    <circle cx="0" cy="0" r="130" fill="none" stroke="#3a6b8a" stroke-width="1"/>
+    <circle cx="0" cy="0" r="150" fill="none" stroke="#4ecdc4" stroke-width="1" stroke-dasharray="4 6"/>
+    <!-- 齿轮齿 -->
+    <g stroke="#5b8fa8" stroke-width="8">
+      <rect x="-6" y="-158" width="12" height="24" rx="2" transform="rotate(0)"/>
+      <rect x="-6" y="-158" width="12" height="24" rx="2" transform="rotate(45)"/>
+      <rect x="-6" y="-158" width="12" height="24" rx="2" transform="rotate(90)"/>
+      <rect x="-6" y="-158" width="12" height="24" rx="2" transform="rotate(135)"/>
+      <rect x="-6" y="-158" width="12" height="24" rx="2" transform="rotate(180)"/>
+      <rect x="-6" y="-158" width="12" height="24" rx="2" transform="rotate(225)"/>
+      <rect x="-6" y="-158" width="12" height="24" rx="2" transform="rotate(270)"/>
+      <rect x="-6" y="-158" width="12" height="24" rx="2" transform="rotate(315)"/>
+    </g>
+  </g>
+
+  <!-- 光晕背景 -->
+  <circle cx="256" cy="240" r="100" fill="url(#glow)"/>
+
+  <!-- 主齿轮 -->
+  <g transform="translate(256,240)">
+    <!-- 齿轮圆环 -->
+    <circle cx="0" cy="0" r="72" fill="none" stroke="url(#gearGrad)" stroke-width="10"/>
+    <circle cx="0" cy="0" r="66" fill="none" stroke="#4ecdc4" stroke-width="0.5" opacity="0.5"/>
+    <circle cx="0" cy="0" r="78" fill="none" stroke="#4ecdc4" stroke-width="0.5" opacity="0.3" stroke-dasharray="3 5"/>
+
+    <!-- 齿轮齿 8个 -->
+    <g fill="url(#gearGrad)">
+      <rect x="-7" y="-86" width="14" height="20" rx="3" transform="rotate(0)"/>
+      <rect x="-7" y="-86" width="14" height="20" rx="3" transform="rotate(45)"/>
+      <rect x="-7" y="-86" width="14" height="20" rx="3" transform="rotate(90)"/>
+      <rect x="-7" y="-86" width="14" height="20" rx="3" transform="rotate(135)"/>
+      <rect x="-7" y="-86" width="14" height="20" rx="3" transform="rotate(180)"/>
+      <rect x="-7" y="-86" width="14" height="20" rx="3" transform="rotate(225)"/>
+      <rect x="-7" y="-86" width="14" height="20" rx="3" transform="rotate(270)"/>
+      <rect x="-7" y="-86" width="14" height="20" rx="3" transform="rotate(315)"/>
+    </g>
+
+    <!-- 齿轮中心圆 -->
+    <circle cx="0" cy="0" r="16" fill="url(#gearGrad)" stroke="#4ecdc4" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="6" fill="#0a0f18" stroke="#4ecdc4" stroke-width="1"/>
+
+    <!-- 齿轮辐条 -->
+    <g stroke="#5b8fa8" stroke-width="3" opacity="0.6">
+      <line x1="0" y1="-20" x2="0" y2="-68"/>
+      <line x1="20" y1="0" x2="68" y2="0"/>
+      <line x1="0" y1="20" x2="0" y2="68"/>
+      <line x1="-20" y1="0" x2="-68" y2="0"/>
+    </g>
+  </g>
+
+  <!-- 电路线：左下 -->
+  <g stroke="#4ecdc4" stroke-width="1.5" opacity="0.4" fill="none">
+    <polyline points="216,316 180,316 180,290 140,290"/>
+    <circle cx="140" cy="290" r="3" fill="#4ecdc4"/>
+    <polyline points="216,316 216,350 250,350 250,370"/>
+    <circle cx="250" cy="370" r="3" fill="#4ecdc4"/>
+  </g>
+
+  <!-- 电路线：右下 -->
+  <g stroke="#4ecdc4" stroke-width="1.5" opacity="0.4" fill="none">
+    <polyline points="296,316 330,316 330,340 370,340"/>
+    <circle cx="370" cy="340" r="3" fill="#4ecdc4"/>
+    <polyline points="296,316 296,350 260,350 260,370"/>
+    <circle cx="260" cy="370" r="3" fill="#4ecdc4"/>
+  </g>
+
+  <!-- 电路线：上方 -->
+  <g stroke="#4ecdc4" stroke-width="1.5" opacity="0.4" fill="none">
+    <polyline points="256,156 256,130 200,130 200,105"/>
+    <circle cx="200" cy="105" r="3" fill="#4ecdc4"/>
+    <polyline points="256,156 256,130 312,130 312,105"/>
+    <circle cx="312" cy="105" r="3" fill="#4ecdc4"/>
+  </g>
+
+  <!-- 数据节点 -->
+  <g fill="#4ecdc4" opacity="0.6">
+    <circle cx="160" cy="200" r="2"/>
+    <circle cx="352" cy="200" r="2"/>
+    <circle cx="160" cy="280" r="2"/>
+    <circle cx="352" cy="280" r="2"/>
+  </g>
+
+  <!-- 文字：T -->
+  <text x="256" y="395" text-anchor="middle" font-family="'Courier New', monospace" font-size="24" font-weight="bold" fill="#5b8fa8" letter-spacing="4">TRISTAN</text>
+  <text x="256" y="420" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#4ecdc4" letter-spacing="6" opacity="0.7">技术架构官</text>
+
+  <!-- 底部装饰线 -->
+  <line x1="180" y1="435" x2="332" y2="435" stroke="#5b8fa8" stroke-width="1" opacity="0.3"/>
+  <circle cx="175" cy="435" r="2" fill="#4ecdc4" opacity="0.5"/>
+  <circle cx="337" cy="435" r="2" fill="#4ecdc4" opacity="0.5"/>
+</svg>

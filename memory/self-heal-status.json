@@ -1,0 +1,39 @@
+{
+  "health": "healthy",
+  "activeModel": "vllm/cli-claude/claude-sonnet-4-6",
+  "models": [
+    {
+      "id": "vllm/cli-claude/claude-sonnet-4-6",
+      "status": "available"
+    },
+    {
+      "id": "openai-codex/gpt-5.1",
+      "status": "available"
+    },
+    {
+      "id": "github-copilot/claude-sonnet-4.6",
+      "status": "available"
+    }
+  ],
+  "whatsapp": {
+    "status": "disconnected",
+    "disconnectStreak": 5,
+    "lastRestartAt": 1776741121,
+    "lastSeenConnectedAt": null
+  },
+  "cron": {
+    "trackedJobs": 0,
+    "failingJobs": []
+  },
+  "config": {
+    "dryRun": false,
+    "probeEnabled": true,
+    "cooldownMinutes": 300,
+    "modelOrder": [
+      "vllm/cli-claude/claude-sonnet-4-6",
+      "openai-codex/gpt-5.1",
+      "github-copilot/claude-sonnet-4.6"
+    ]
+  },
+  "generatedAt": 1776741402
+}

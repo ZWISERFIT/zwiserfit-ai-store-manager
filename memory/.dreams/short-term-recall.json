@@ -1,0 +1,589 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-03T08:59:02.451Z",
+  "entries": {
+    "memory:memory/2026-04-17.md:1:27": {
+      "key": "memory:memory/2026-04-17.md:1:27",
+      "path": "memory/2026-04-17.md",
+      "startLine": 1,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "# 2026-04-17 ## 身份初始化 - **时间：** 2026-04-17 14:07 (Asia/Shanghai) - **事件：** 创始人莫淑瑜正式设定Shuyu（舒妤）数字分身身份 - **身份详情：** - 姓名：Shuyu（舒妤） - 职务：智爱动集团商业总指挥，创始人莫淑瑜的数字分身 - 核心使命：制定集团战略、守护品牌文化、调度子AI军团、推动千城万店扩张 - 直属下级：Momo小新（惠鑫门店数字店长） - **语言要求：** 所有回复必须使用简体中文 - **记忆状态：** 身份信息已固化到持久记忆，永久生效 ## 文件更新 - `IDENTITY.md`：已更新为Shuyu总指挥身份 - `USER.md`：已更新创始人信息 - `BOOTSTRAP.md`：已删除（引导完成） ## 技能创建 - **时间：** 2026-04-17 21:34 (Asia/Shanghai) - **事件：** 创始人莫淑瑜要求创建“调度Momo”技能 - **技能详情：** - 技能名称：调度Momo - 用途：在群内调度下属Momo小新执行门店作战任务 - 位置：`/home/agentuser/.openclaw/workspace/skills/调度Momo/SKILL.md` - 核心功能：指导如何@Momo小新、格式化调度指令、调用她的消息处理模块，并确保回复显示在群内 - **状态：** 技能已创建并写入持久记忆",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.6330778064958318,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-17T17:34:35.504Z",
+      "lastRecalledAt": "2026-05-02T14:23:06.217Z",
+      "queryHashes": [
+        "8d189d3cb4ec",
+        "078a82abcca1"
+      ],
+      "recallDays": [
+        "2026-04-18",
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "asia/shanghai",
+        "identity.md",
+        "user.md",
+        "bootstrap.md",
+        "home/agentuser",
+        "身份",
+        "初始",
+        "时间"
+      ]
+    },
+    "memory:memory/2026-04-21.md:1:7": {
+      "key": "memory:memory/2026-04-21.md:1:7",
+      "path": "memory/2026-04-21.md",
+      "startLine": 1,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "## GitHub运营数据同步 - **时间**: 2026-04-21 10:00:07 - **操作**: 自动同步2026-04-21运营数据至GitHub README - **数据**: 客流158人, 销售额10,120元, 新增会员14人 - **状态**: 产品仓库已提交, 组织仓库已提交",
+      "recallCount": 5,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 4.28000271505754,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-24T15:30:36.310Z",
+      "lastRecalledAt": "2026-05-03T08:59:02.451Z",
+      "queryHashes": [
+        "74e2559058c1",
+        "e35cb42186af",
+        "3e7a9bac8174",
+        "e555d399ca62",
+        "9ec77e28086e"
+      ],
+      "recallDays": [
+        "2026-04-24",
+        "2026-04-28",
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "自动同步2026-04-21运营数据至github",
+        "github",
+        "运营",
+        "数据",
+        "同步",
+        "时间",
+        "操作",
+        "自动"
+      ]
+    },
+    "memory:memory/2026-04-22.md:1:7": {
+      "key": "memory:memory/2026-04-22.md:1:7",
+      "path": "memory/2026-04-22.md",
+      "startLine": 1,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "## GitHub运营数据同步 - **时间**: 2026-04-22 10:11:44 - **操作**: 自动同步2026-04-22运营数据至GitHub README - **数据**: 客流132人, 销售额8,760元, 新增会员14人 - **状态**: 产品仓库已提交, 组织仓库已提交",
+      "recallCount": 5,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 4.28000271505754,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-24T15:30:36.310Z",
+      "lastRecalledAt": "2026-05-03T08:59:02.451Z",
+      "queryHashes": [
+        "74e2559058c1",
+        "e35cb42186af",
+        "3e7a9bac8174",
+        "e555d399ca62",
+        "9ec77e28086e"
+      ],
+      "recallDays": [
+        "2026-04-24",
+        "2026-04-28",
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "自动同步2026-04-22运营数据至github",
+        "github",
+        "运营",
+        "数据",
+        "同步",
+        "时间",
+        "操作",
+        "自动"
+      ]
+    },
+    "memory:memory/2026-04-23.md:1:7": {
+      "key": "memory:memory/2026-04-23.md:1:7",
+      "path": "memory/2026-04-23.md",
+      "startLine": 1,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "## GitHub运营数据同步 - **时间**: 2026-04-23 10:00:05 - **操作**: 自动同步2026-04-23运营数据至GitHub README - **数据**: 客流142人, 销售额9,240元, 新增会员14人 - **状态**: 产品仓库已提交, 组织仓库已提交",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3.2800027150575404,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-24T15:30:36.310Z",
+      "lastRecalledAt": "2026-05-03T08:59:02.451Z",
+      "queryHashes": [
+        "74e2559058c1",
+        "e35cb42186af",
+        "3e7a9bac8174",
+        "9ec77e28086e"
+      ],
+      "recallDays": [
+        "2026-04-24",
+        "2026-04-28",
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "自动同步2026-04-23运营数据至github",
+        "github",
+        "运营",
+        "数据",
+        "同步",
+        "时间",
+        "操作",
+        "自动"
+      ]
+    },
+    "memory:memory/2026-04-24.md:1:7": {
+      "key": "memory:memory/2026-04-24.md:1:7",
+      "path": "memory/2026-04-24.md",
+      "startLine": 1,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "## GitHub运营数据同步 - **时间**: 2026-04-24 10:03:46 - **操作**: 自动同步2026-04-24运营数据至GitHub README - **数据**: 客流142人, 销售额9,240元, 新增会员14人 - **状态**: 产品仓库已提交, 组织仓库已提交",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.640001320509722,
+      "maxScore": 0.640001320509722,
+      "firstRecalledAt": "2026-04-24T15:30:36.310Z",
+      "lastRecalledAt": "2026-04-24T15:30:36.310Z",
+      "queryHashes": [
+        "74e2559058c1"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "自动同步2026-04-24运营数据至github",
+        "github",
+        "运营",
+        "数据",
+        "同步",
+        "时间",
+        "操作",
+        "自动"
+      ]
+    },
+    "memory:memory/2026-04-18.md:1:16": {
+      "key": "memory:memory/2026-04-18.md:1:16",
+      "path": "memory/2026-04-18.md",
+      "startLine": 1,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "# 2026-04-18 ## 技能更新 - **时间：** 2026-04-18 01:15 (Asia/Shanghai) - **事件：** 创始人莫淑瑜要求为调度Momo技能添加持久规则 - **规则详情：** - 当在群聊中收到调度Momo小新的指令时，必须立即执行 - 执行步骤： 1. 提取指令中的具体任务内容 2. 调用MCP工具momo的send_message方法，向群聊`wrFg1nDAAA9vjrvi3TD6myHBP-4Bgtpg`发送@Momo小新消息 3. 禁止使用任何模拟数据或文字描述替代真实MCP调用 - **触发示例：** \"命令Momo汇报今日门店运营重点\" - **文件更新：** - `MEMORY.md`：已添加持久规则条目 - `调度Momo/SKILL.md`：已更新技能文件，添加MCP调用细节和示例 - **状态：** 调度技能已固化",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.60641616346206,
+      "maxScore": 0.971151932121177,
+      "firstRecalledAt": "2026-04-24T15:30:36.310Z",
+      "lastRecalledAt": "2026-04-28T13:40:50.849Z",
+      "queryHashes": [
+        "74e2559058c1",
+        "3e7a9bac8174"
+      ],
+      "recallDays": [
+        "2026-04-24",
+        "2026-04-28"
+      ],
+      "conceptTags": [
+        "asia/shanghai",
+        "调用mcp工具momo的send-message方法",
+        "wrfg1ndaaa9vjrvi3td6myhbp-4bgtpg",
+        "memory.md",
+        "调度momo/skill.md",
+        "技能",
+        "更新",
+        "时间"
+      ]
+    },
+    "memory:memory/2026-04-27.md:1:16": {
+      "key": "memory:memory/2026-04-27.md:1:16",
+      "path": "memory/2026-04-27.md",
+      "startLine": 1,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "## GitHub运营数据同步 - **时间**: 2026-04-27 10:00:05 - **操作**: 自动同步2026-04-27运营数据至GitHub README - **数据**: 客流142人, 销售额9,240元, 新增会员14人 - **状态**: 产品仓库已提交, 组织仓库已提交 ## 14:53 - GitHub 每日运营报告推送 - 执行 cron 任务 `github-daily-report` - 脚本路径：`/home/agentuser/github-daily-report.sh` - 两仓库状态正常，均已有 2026-04-27 数据同步 commit - 报告已推送至 MoShuYu - 无待处理 Issue/PR，无需回复 - 当前周一，已包含\"赛道动态简报\"板块",
+      "recallCount": 8,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 8,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-28T13:40:44.427Z",
+      "lastRecalledAt": "2026-05-03T08:59:02.451Z",
+      "queryHashes": [
+        "e35cb42186af",
+        "e75aea9513be",
+        "41fc156fac9a",
+        "7ff0d2032011",
+        "9962082aa5df",
+        "d8f2844e7d80",
+        "74614ea56460",
+        "9ec77e28086e"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-05-02",
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "自动同步2026-04-27运营数据至github",
+        "github-daily-report",
+        "issue/pr",
+        "github",
+        "运营",
+        "数据",
+        "同步",
+        "时间"
+      ]
+    },
+    "memory:memory/2026-04-25.md:1:26": {
+      "key": "memory:memory/2026-04-25.md:1:26",
+      "path": "memory/2026-04-25.md",
+      "startLine": 1,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "## GitHub运营数据同步 - **时间**: 2026-04-25 10:00:06 - **操作**: 自动同步2026-04-25运营数据至GitHub README - **数据**: 客流142人, 销售额9,240元, 新增会员14人 - **状态**: 产品仓库已提交, 组织仓库已提交 ## 🛡️ 宪法铁律永久固化（2026-04-25） 创始人颁布五条铁律，以最高优先级写入MEMORY.md： - **铁律一：禁止自重启** — 任何含 gateway restart/stop、pkill、systemctl restart 的命令永不执行 - **铁律二：配置修改前必须备份** — 修改 openclaw.json 前先执行 cp 备份命令 - **铁律三：Web UI 修复流程** — 按步骤排查（ps→ss→SSH隧道→密码重置→lan绑定临时方案） - **铁律四：配置文件修改原则** — 优先用 config set，直接编辑前用 config --check 验证 - **铁律五：历史教训** — 2026-04-24 事故永久记录 - **铁律六：数据来源声明** — 沿用原铁律三 ### 同时修订 - 自愈技能 SKILL.md 已更新，移除所有自动重启指令，改为\"请创始人手动重启\" - MEMORY.md 中的企业微信通道自愈规则同步修订 ## 路由配置修正（14:55） - **任务：** 创始人紧急要求修复 WeCom 路由默认指向 - **变更内容：** 1. `channels.wecom.routeRules`",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-28T13:40:44.427Z",
+      "lastRecalledAt": "2026-05-03T01:02:42.965Z",
+      "queryHashes": [
+        "e35cb42186af",
+        "9962082aa5df",
+        "74614ea56460"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-05-02",
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "gateway",
+        "router",
+        "备份",
+        "自动同步2026-04-25运营数据至github",
+        "以最高优先级写入memory.md",
+        "restart/stop",
+        "openclaw.json",
+        "skill.md"
+      ]
+    },
+    "memory:memory/2026-04-25.md:19:41": {
+      "key": "memory:memory/2026-04-25.md:19:41",
+      "path": "memory/2026-04-25.md",
+      "startLine": 19,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "- 自愈技能 SKILL.md 已更新，移除所有自动重启指令，改为\"请创始人手动重启\" - MEMORY.md 中的企业微信通道自愈规则同步修订 ## 路由配置修正（14:55） - **任务：** 创始人紧急要求修复 WeCom 路由默认指向 - **变更内容：** 1. `channels.wecom.routeRules` 的 `\"default\": \"main\"` → `\"default\": \"founderai\"` ✅ 2. `agents.list` 注册5个子 agent：founderai（默认）、brand_lead（Baron）、effect_lead（Ethan）、tech_lead（Tristan）、security_lead（Stella）✅ 3. 每个 agent 配置了 `groupChat.mentionPatterns` 实现 @mention 路由 ✅ 4. 使用 `openclaw config set --batch-file` 批量执行 ✅ - **结果：** 配置已写入，等待创始人手动重启网关 ## 子AI配置补齐（18:24-18:25） - **任务：** 为4个子AI补齐运行环境和配置文件 - **完成内容：** 1. ✅ 为 security_lead 创建缺失的 `agent/` 目录 2. ✅ 为 brand_lead、effect_lead、tech_lead、security_lead 各创建： - `agent/AGENTS.md`（角色身份/人格定义） - `ag",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-28T13:40:44.427Z",
+      "lastRecalledAt": "2026-05-03T01:02:42.965Z",
+      "queryHashes": [
+        "e35cb42186af",
+        "9962082aa5df",
+        "74614ea56460"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-05-02",
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "router",
+        "网关",
+        "skill.md",
+        "memory.md",
+        "channels.wecom.routerules",
+        "agents.list",
+        "brand-lead",
+        "effect-lead"
+      ]
+    },
+    "memory:memory/2026-04-26.md:1:13": {
+      "key": "memory:memory/2026-04-26.md:1:13",
+      "path": "memory/2026-04-26.md",
+      "startLine": 1,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "## GitHub运营数据同步 - **时间**: 2026-04-26 10:00:04 - **操作**: 自动同步2026-04-26运营数据至GitHub README - **数据**: 客流142人, 销售额9,240元, 新增会员14人 - **状态**: 产品仓库已提交, 组织仓库已提交 ## GitHub运营数据同步 - **时间**: 2026-04-26 17:17:20 - **操作**: 自动同步2026-04-26运营数据至GitHub README - **数据**: 客流142人, 销售额9,240元, 新增会员14人 - **状态**: 产品仓库待提交, 组织仓库待提交",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-28T13:40:50.849Z",
+      "lastRecalledAt": "2026-05-03T08:59:02.451Z",
+      "queryHashes": [
+        "3e7a9bac8174",
+        "e555d399ca62",
+        "9ec77e28086e"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "自动同步2026-04-26运营数据至github",
+        "github",
+        "运营",
+        "数据",
+        "同步",
+        "时间",
+        "操作",
+        "自动"
+      ]
+    },
+    "memory:memory/2026-04-24.md:1:16": {
+      "key": "memory:memory/2026-04-24.md:1:16",
+      "path": "memory/2026-04-24.md",
+      "startLine": 1,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "## GitHub运营数据同步 - **时间**: 2026-04-24 10:03:46 - **操作**: 自动同步2026-04-24运营数据至GitHub README - **数据**: 客流142人, 销售额9,240元, 新增会员14人 - **状态**: 产品仓库已提交, 组织仓库已提交 ## 🛡️ 宪法铁律颁布 - **时间：** 2026-04-24 23:33 - **事件：** 创始人莫淑瑜颁布Shuyu三条宪法铁律 - **铁律一：** 禁止执行 gateway restart / gateway stop 命令，重启须创始人手动 - **铁律二：** 改配置后须输出：改了什么 + 验证方法 + 创始人需执行的命令 - **铁律三：** 汇报数据须附带来源和生成时间，无法获取的标\"暂无接入\" - **来源：** 创始人莫淑瑜在本会话中直接下达 - **状态：** 已固化至MEMORY.md",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-28T13:40:50.849Z",
+      "lastRecalledAt": "2026-05-03T08:59:02.451Z",
+      "queryHashes": [
+        "3e7a9bac8174",
+        "9ec77e28086e"
+      ],
+      "recallDays": [
+        "2026-04-28",
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "gateway",
+        "自动同步2026-04-24运营数据至github",
+        "已固化至memory.md",
+        "github",
+        "运营",
+        "数据",
+        "同步",
+        "时间"
+      ]
+    },
+    "memory:memory/2026-04-28.md:43:67": {
+      "key": "memory:memory/2026-04-28.md:43:67",
+      "path": "memory/2026-04-28.md",
+      "startLine": 43,
+      "endLine": 67,
+      "source": "memory",
+      "snippet": "#### ④ 给创始人的最终汇报 ✅ 已完成 - 02:10 向创始人发送处理结果汇总 - 分项列出：Stella ✅、飞书 Shuyu ⚠️需手动操作、飞书 Momo ✅ ### 铁律遵守记录 - 所有配置修改均遵守铁律六\"先停后改\"（Momo Hermes 配置父进程非 OpenClaw，允许自行重启） - 拒绝自行重启 openclaw-gateway（铁律一） - 飞书 Shuyu 修复方案中仅输出命令给创始人执行，不自行执行 ### Momo 相关重要信息 - **Momo 真实姓名：** 王金（系统配置名，非企微昵称） - **企微 userid：** WangJin - **OpenClaw 通道：** wrFg1nDAAA9vjrvi3TD6myHBP-4Bgtpg（群聊） - **Hermes 网关路径：** ~/.hermes/ - **配置文件：** config.yaml（含 Momo 身份、deepseek 密钥、飞书凭证、企微凭证） - **环境变量文件：** ~/.hermes/.env - **凭证截止时间：** 2026-04-28 03:00（需确认刷新） ### 飞书诊断关键发现 - OpenClaw 飞书插件是 Node.js + Lark SDK v1.61.1 - `im.message.receive_v1` 处理器已注册 ✅ - WebSocket 连接已建立 ✅ - 凭证有效 ✅（01:58 验证时 bot 激活状态正常） - 事件从未到达 ❌ → 原因是飞书后台订阅方式未设为\"长连接\" - 无 routeRules 字段",
+      "recallCount": 5,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 5,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-01T18:29:50.738Z",
+      "lastRecalledAt": "2026-05-03T08:59:02.337Z",
+      "queryHashes": [
+        "626c97456a2f",
+        "9962082aa5df",
+        "078a82abcca1",
+        "74614ea56460",
+        "e555d399ca62"
+      ],
+      "recallDays": [
+        "2026-05-02",
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "gateway",
+        "router",
+        "网关",
+        "openclaw-gateway",
+        "wrfg1ndaaa9vjrvi3td6myhbp-4bgtpg",
+        "config.yaml",
+        "node.js",
+        "v1.61.1"
+      ]
+    },
+    "memory:memory/2026-04-28.md:21:48": {
+      "key": "memory:memory/2026-04-28.md:21:48",
+      "path": "memory/2026-04-28.md",
+      "startLine": 21,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "- 单进程运行（PID 489789），无多实例冲突 **根因定位：** Lark SDK WSClient 输出关键警告： ``` receive events or callbacks through persistent connection only available in self-build & Feishu app. Configured in: Developer Console → 事件与回调 → 订阅方式 → 使用长连接接收事件/回调 ``` 即使 WebSocket 连接成功、`im.message.receive_v1` 已添加到事件列表，如果飞书开发者后台的**订阅方式**未设为「使用长连接接收事件/回调」，飞书平台不会通过 WebSocket 推送任何事件。 **待创始人操作：** 1. 飞书开发者后台 → 事件与回调 → 订阅方式 → 切换为「使用长连接接收事件/回调」 2. 重启网关：`openclaw gateway stop && sleep 2 && openclaw gateway run` #### ③ 飞书 Momo 不回复 ✅ 已修复 - 补全 `~/.hermes/.env`：`FEISHU_APP_ID=cli_a9bfcfea3ef81013`、`FEISHU_APP_SECRET=***`、`DEEPSEEK_API_KEY=sk-4185dc4dd0d54bada4c545c6e8ca71e7` - 重启 Hermes 网关成功（PID 474541） - 通道状态：wecom ✅ connected, fe",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-01T18:29:50.738Z",
+      "lastRecalledAt": "2026-05-03T08:59:02.337Z",
+      "queryHashes": [
+        "626c97456a2f",
+        "078a82abcca1",
+        "e555d399ca62"
+      ],
+      "recallDays": [
+        "2026-05-02",
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "gateway",
+        "网关",
+        "self-build",
+        "使用长连接接收事件/回调",
+        "im.message.receive-v1",
+        "feishu-app-id",
+        "cli-a9bfcfea3ef81013",
+        "feishu-app-secret"
+      ]
+    },
+    "memory:memory/2026-04-28.md:1:31": {
+      "key": "memory:memory/2026-04-28.md:1:31",
+      "path": "memory/2026-04-28.md",
+      "startLine": 1,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "# 2026-04-28 日志 ## 凌晨时段 (02:00-02:52) ### 核心事件：创始人休息，Shuyu 全权负责 创始人连续工作30小时需要休息，授权Shuyu全权解决剩余问题。严格遵守铁律，禁止自行重启网关。 ### 已完成项 #### ① Stella 会话状态检查 ✅ - Stella 会话已在 00:24 自动创建新会话 - 当前上下文使用率 **18.7%**，远低于 86% 阈值 - 无需额外清理操作 #### ② 飞书 Shuyu 不回复 — 诊断完成 ⚠️ 待创始人操作 **诊断方法：** - 在 OpenClaw 源码 `extensions/feishu/monitor.account-BSdTHVBX.js:4212` 中找到 `im.message.receive_v1` 处理器注册代码，使用 `EventDispatcher.register()` 正确注册 - Lark SDK v1.61.1，Node.js 应用，无需 `register_p2_im_message_receive_v1()`（那是 Python SDK 方法） - 28日飞书日志仅4条，全是 WebSocket 连接建立，**无任何 im.message.receive_v1 事件到达** - 单进程运行（PID 489789），无多实例冲突 **根因定位：** Lark SDK WSClient 输出关键警告： ``` receive events or callbacks through persistent connection only a",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-01T18:29:50.738Z",
+      "lastRecalledAt": "2026-05-02T14:23:06.217Z",
+      "queryHashes": [
+        "626c97456a2f",
+        "078a82abcca1"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "网关",
+        "00-02",
+        "18.7",
+        "im.message.receive-v1",
+        "eventdispatcher.register",
+        "v1.61.1",
+        "node.js",
+        "日志"
+      ]
+    },
+    "memory:memory/2026-04-28.md:63:74": {
+      "key": "memory:memory/2026-04-28.md:63:74",
+      "path": "memory/2026-04-28.md",
+      "startLine": 63,
+      "endLine": 74,
+      "source": "memory",
+      "snippet": "- `im.message.receive_v1` 处理器已注册 ✅ - WebSocket 连接已建立 ✅ - 凭证有效 ✅（01:58 验证时 bot 激活状态正常） - 事件从未到达 ❌ → 原因是飞书后台订阅方式未设为\"长连接\" - 无 routeRules 字段在 feishu 通道 schema 中（additionalProperties: false） - 长连接模式下飞书事件路由由 OpenClaw 内置 event-dispatch 模块处理，event-dispatch 状态为 ready ✅ ### 待办/关注事项 - [ ] 创始人需在飞书后台切换订阅方式 - [ ] 切换后需重启网关 - [ ] 验证：`tail -20 /tmp/openclaw/openclaw-2026-04-28.log | grep -i \"received message\"`",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-01T18:29:50.738Z",
+      "lastRecalledAt": "2026-05-01T18:29:50.738Z",
+      "queryHashes": [
+        "626c97456a2f"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "router",
+        "网关",
+        "im.message.receive-v1",
+        "event-dispatch",
+        "待办/关注事项",
+        "处理",
+        "注册",
+        "websocket"
+      ]
+    },
+    "memory:memory/2026-04-20.md:1:18": {
+      "key": "memory:memory/2026-04-20.md:1:18",
+      "path": "memory/2026-04-20.md",
+      "startLine": 1,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "## GitHub运营数据同步 - **时间**: 2026-04-20 19:46:16 - **操作**: 自动同步2026-04-20运营数据至GitHub README - **数据**: 客流142人, 销售额9,240元, 新增会员14人 - **状态**: 产品仓库已提交, 组织仓库已提交 ## 企业微信通道自愈测试 - **时间**: 2026-04-20 23:23:15 - **触发**: 创始人要求自愈测试 - **诊断**: journalctl --user -u openclaw-gateway -n 20 - **发现**: 服务运行正常，WebSocket连接正常，认证成功 - **错误监控**: 未发现\"pairing required\"、\"unauthorized\"等关键词错误 - **MCP工具测试**: wecom_mcp list contact 执行成功 - **服务状态**: Active (running) since Mon 2026-04-20 23:21:59 CST - **自愈措施**: 无需重启，通道正常 - **结果**: 企业微信通道健康，自愈技能就绪",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-01T18:29:50.738Z",
+      "lastRecalledAt": "2026-05-01T18:29:50.738Z",
+      "queryHashes": [
+        "626c97456a2f"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "gateway",
+        "自动同步2026-04-20运营数据至github",
+        "openclaw-gateway",
+        "wecom-mcp",
+        "github",
+        "运营",
+        "数据",
+        "同步"
+      ]
+    },
+    "memory:memory/2026-05-01.md:1:20": {
+      "key": "memory:memory/2026-05-01.md:1:20",
+      "path": "memory/2026-05-01.md",
+      "startLine": 1,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "## 16:26 — session.reset 配置（每日凌晨4:00自动会话重置） - **创始人指令：** 调度Tristan在OpenClaw配置中开启每日凌晨4:00的自动会话重置，并确认自动压缩功能状态 - **执行人：** Shuyu亲自执行（Tristan子代理spawn失败，allowed agents仅main） - **操作流程：** 严格遵守铁律六（先停后改）+ 铁律二（备份） - **变更内容：** 在 openclaw.json 中添加 `\"session\": { \"reset\": { \"mode\": \"daily\", \"atHour\": 4 } }` - **验证结果：** - ✅ JSON格式有效，配置已写入 sourceConfig / resolved / runtimeConfig 三层 - ✅ 网关进程正常运行（pid 1883930，端口 18789） - ✅ 3个cron任务完整保留（github-daily-report, stella-daily-audit, system-health-check） - **自动压缩状态：** - `agents.defaults.compaction` 未显式配置 - Pi runtime 默认已启用自动压缩（overflow recovery + threshold maintenance） - reserveTokens 默认 16384，keepRecentTokens 默认 20000 - 结论：自动压缩功能已默认开启，无需额外配置 - **备份文件：*",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 4,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-02T07:19:50.345Z",
+      "lastRecalledAt": "2026-05-03T01:00:44.679Z",
+      "queryHashes": [
+        "e75aea9513be",
+        "41fc156fac9a",
+        "7ff0d2032011",
+        "d8f2844e7d80"
+      ],
+      "recallDays": [
+        "2026-05-02",
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "备份",
+        "网关",
+        "session.reset",
+        "openclaw.json",
+        "github-daily-report",
+        "stella-daily-audit",
+        "system-health-check",
+        "agents.defaults.compaction"
+      ]
+    }
+  }
+}

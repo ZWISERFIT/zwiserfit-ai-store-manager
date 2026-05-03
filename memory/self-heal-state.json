@@ -1,0 +1,15 @@
+{
+  "limited": {},
+  "pendingBackups": {},
+  "whatsapp": {
+    "disconnectStreak": 5,
+    "lastRestartAt": 1776741121
+  },
+  "cron": {
+    "failCounts": {},
+    "lastIssueCreatedAt": {}
+  },
+  "plugins": {
+    "lastDisableAt": {}
+  }
+}

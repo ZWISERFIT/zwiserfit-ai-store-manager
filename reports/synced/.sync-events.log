@@ -1,0 +1,7 @@
+[2026-05-03 00:17:38] 🟢 同步监视器启动，监视目录: /home/agentuser/.openclaw/workspace/reports/synced
+[2026-05-03 00:18:02] 📄 CREATE → pull-reports-daemon.sh
+[2026-05-03 00:18:02] 📄 MODIFY → pull-reports-daemon.sh
+[2026-05-03 00:18:02] 📄 CLOSE_WRITE,CLOSE → pull-reports-daemon.sh
+[2026-05-03 00:18:49] 📄 CREATE → DEPLOYMENT.md
+[2026-05-03 00:18:49] 📄 MODIFY → DEPLOYMENT.md
+[2026-05-03 00:18:49] 📄 CLOSE_WRITE,CLOSE → DEPLOYMENT.md

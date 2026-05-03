@@ -1,0 +1,17 @@
+{
+  "lastSync": "2026-05-02T16:18:49Z",
+  "files": [
+    {
+      "name": "pull-reports-daemon.sh",
+      "mtime": "2026-05-02T16:18:02Z",
+      "event": "CLOSE_WRITE,CLOSE",
+      "size": 2496
+    },
+    {
+      "name": "DEPLOYMENT.md",
+      "mtime": "2026-05-02T16:18:49Z",
+      "event": "CLOSE_WRITE,CLOSE",
+      "size": 4811
+    }
+  ]
+}

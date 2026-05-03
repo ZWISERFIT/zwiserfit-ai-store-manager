@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#F7931E"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4ECDC4"/>
+      <stop offset="100%" stop-color="#00B4D8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="200" fill="url(#bg)"/>
+
+  <!-- Subtle pattern dots -->
+  <g opacity="0.08">
+    <circle cx="80" cy="80" r="3" fill="#fff"/>
+    <circle cx="120" cy="60" r="2" fill="#fff"/>
+    <circle cx="300" cy="90" r="3" fill="#fff"/>
+    <circle cx="340" cy="150" r="2" fill="#fff"/>
+    <circle cx="60" cy="300" r="2" fill="#fff"/>
+    <circle cx="320" cy="320" r="3" fill="#fff"/>
+    <circle cx="350" cy="280" r="2" fill="#fff"/>
+    <circle cx="100" cy="350" r="2" fill="#fff"/>
+  </g>
+
+  <!-- Decorative rings -->
+  <circle cx="200" cy="200" r="170" fill="none" stroke="url(#accent2)" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="url(#accent1)" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Body / shoulders -->
+  <ellipse cx="200" cy="310" rx="110" ry="70" fill="#2d3436"/>
+  <!-- Collar -->
+  <path d="M 160 280 L 200 310 L 240 280" fill="none" stroke="#636e72" stroke-width="2"/>
+  <!-- Tie -->
+  <path d="M 195 295 L 200 340 L 205 295" fill="url(#accent1)"/>
+
+  <!-- Neck -->
+  <rect x="185" y="255" width="30" height="30" rx="5" fill="#e8c4a0"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="215" rx="50" ry="58" fill="#e8c4a0"/>
+
+  <!-- Hair -->
+  <path d="M 150 200 Q 150 150 175 140 Q 200 132 225 140 Q 250 150 250 200 Q 248 180 240 175 Q 230 168 200 168 Q 170 168 160 175 Q 152 180 150 200 Z" fill="#2d3436"/>
+  <path d="M 160 190 Q 165 148 190 138 Q 200 134 210 138 Q 235 148 240 190" fill="#2d3436"/>
+  <path d="M 152 200 Q 148 195 150 190" fill="none" stroke="#2d3436" stroke-width="4"/>
+
+  <!-- Eyebrows -->
+  <path d="M 176 200 Q 182 195 190 198" fill="none" stroke="#5d4037" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 210 198 Q 218 195 224 200" fill="none" stroke="#5d4037" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <ellipse cx="183" cy="210" rx="9" ry="6" fill="#fff"/>
+  <ellipse cx="217" cy="210" rx="9" ry="6" fill="#fff"/>
+  <circle cx="183" cy="210" r="4.5" fill="#1a1a2e"/>
+  <circle cx="217" cy="210" r="4.5" fill="#1a1a2e"/>
+  <circle cx="185" cy="208" r="1.8" fill="#fff" opacity="0.8"/>
+  <circle cx="219" cy="208" r="1.8" fill="#fff" opacity="0.8"/>
+
+  <!-- Nose -->
+  <path d="M 200 215 Q 196 226 200 230 Q 204 226 200 215" fill="#d4a574"/>
+
+  <!-- Smile -->
+  <path d="M 183 240 Q 200 252 217 240" fill="none" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Glasses -->
+  <circle cx="183" cy="210" rx="13" ry="11" fill="none" stroke="url(#accent2)" stroke-width="2"/>
+  <circle cx="217" cy="210" rx="13" ry="11" fill="none" stroke="url(#accent2)" stroke-width="2"/>
+  <line x1="196" y1="210" x2="204" y2="210" stroke="url(#accent2)" stroke-width="2"/>
+  <line x1="170" y1="208" x2="160" y2="205" stroke="url(#accent2)" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Growth arrow -->
+  <g opacity="0.5">
+    <path d="M 300 130 L 330 90" stroke="url(#accent1)" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="330,85 335,92 325,90" fill="url(#accent1)"/>
+    <path d="M 330 90 L 360 80" stroke="url(#accent1)" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  </g>
+
+  <!-- Chart bars -->
+  <g opacity="0.35">
+    <rect x="290" y="340" width="8" height="25" rx="2" fill="url(#accent2)"/>
+    <rect x="302" y="325" width="8" height="40" rx="2" fill="url(#accent1)"/>
+    <rect x="314" y="310" width="8" height="55" rx="2" fill="url(#accent2)"/>
+    <rect x="326" y="330" width="8" height="35" rx="2" fill="url(#accent1)"/>
+  </g>
+
+  <!-- Data dots -->
+  <g opacity="0.25">
+    <circle cx="85" cy="330" r="3" fill="url(#accent2)"/>
+    <circle cx="100" cy="315" r="3" fill="url(#accent1)"/>
+    <circle cx="115" cy="320" r="3" fill="url(#accent2)"/>
+    <circle cx="130" cy="305" r="3" fill="url(#accent1)"/>
+    <circle cx="145" cy="310" r="3" fill="url(#accent2)"/>
+  </g>
+
+  <!-- Rocket subtle -->
+  <g transform="translate(70, 110) rotate(-30)" opacity="0.2">
+    <ellipse cx="0" cy="15" rx="6" ry="18" fill="url(#accent1)"/>
+    <polygon points="-4,26 0,38 4,26" fill="url(#accent2)"/>
+    <circle cx="0" cy="5" r="4" fill="#fff" opacity="0.6"/>
+  </g>
+</svg>
