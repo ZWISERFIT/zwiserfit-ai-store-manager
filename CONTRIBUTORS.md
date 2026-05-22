@@ -22,9 +22,15 @@
 - Stella — Compliance & Audit (Independent)
 - Luna — Global Developer Ecosystem & Community 🌙
 
-## External Contributors
+## Founding Contributors 🌟
 
-- **zp6** 🏆 — First external contributor! Multi-Bot Identity Architecture (PR #13, merged 2026-05-16)
+*The first contributors who helped shape ZWISERFIT's community culture and contribution infrastructure.*
+
+- **zp6** 🏆 — Founding Contributor #001. Multi-Bot Identity Architecture (PR #13, merged 2026-05-16). First to help define our contributor reward framework. *(行为资产正在累积)*
+
+---
+
+## External Contributors
 
 *(Your name goes here. First PR? First bug? First doc fix? You belong here.)*
 
