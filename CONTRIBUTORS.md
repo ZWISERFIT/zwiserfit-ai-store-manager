@@ -24,7 +24,9 @@
 
 ## External Contributors
 
-*(This is where your name goes. First PR? First bug report? First documentation fix? You belong here.)*
+- **zp6** 🏆 — First external contributor! Multi-Bot Identity Architecture (PR #13, merged 2026-05-16)
+
+*(Your name goes here. First PR? First bug? First doc fix? You belong here.)*
 
 ---
 
