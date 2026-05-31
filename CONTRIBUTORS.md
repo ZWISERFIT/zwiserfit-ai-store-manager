@@ -1,19 +1,45 @@
 # ZWISERFIT AI Store Manager — Contributors 🌟
 
 > Every contribution matters — code, docs, feedback, ideas, or spreading the word.
+> Non-code contributions see [CREDIT.md](./CREDIT.md)
+> Both? You appear in both files.
 
-## How to get on this list
+---
 
-1. Submit a PR, report a bug, improve docs, or share your thoughts in Issues
-2. Get your contribution acknowledged in a merged PR commit
-3. We'll add you here 🎉
+## 🥇 Founding Contributors
+
+*Angel round contributors who helped define ZWISERFIT's community culture and contribution infrastructure. 🏆 Permanent recognition.*
+
+| Contributor | Contribution | Date | Badge |
+|:-----------|:------------|:----:|:-----:|
+| zp6 | Multi-Bot Identity Architecture (PR #13) | 2026-05-16 | 🏆💻🔧 |
+
+---
+
+## 🥈 Partner
+
+*Active members with 3+ contributions or sustained community engagement.*
+
+| Contributor | Contributions | Active Period | Badge |
+|:-----------|:-------------|:------------:|:-----:|
+| — | — | — | — |
+
+---
+
+## 🥉 Contributor
+
+*Every contributor starts here — file an issue, submit a PR, improve docs.*
+
+| Contributor | Contribution | Date | Badge |
+|:-----------|:------------|:----:|:-----:|
+| — | — | — | — |
 
 ---
 
 ## Core Team
 
 - Shuyu — Ecosystem Command & Architecture
-- Momo — AI Store Manager (in production)
+- Momo — AI Store Manager
 - Tristan — Technical Architecture & Code Review
 - Nova — Digital Asset Strategy & RWA Standards
 - Baron — Brand & Growth
@@ -21,18 +47,6 @@
 - Zeus — Capital & Valuation
 - Stella — Compliance & Audit (Independent)
 - Luna — Global Developer Ecosystem & Community 🌙
-
-## Founding Contributors 🌟
-
-*The first contributors who helped shape ZWISERFIT's community culture and contribution infrastructure.*
-
-- **zp6** 🏆 — Founding Contributor #001. Multi-Bot Identity Architecture (PR #13, merged 2026-05-16). First to help define our contributor reward framework. *(行为资产正在累积)*
-
----
-
-## External Contributors
-
-*(Your name goes here. First PR? First bug? First doc fix? You belong here.)*
 
 ---
 
