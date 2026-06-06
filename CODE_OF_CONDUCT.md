@@ -39,11 +39,11 @@ Examples of unacceptable behavior include:
 
 不可接受行为的示例包括：
 
-- The use of sexualized language or imagery, and sexual attention or advances of any kind / 使用与性相关的语言或图像，以及任何形式的性关注或性挑逗
-- Trolling, insulting or derogatory comments, and personal or political attacks / 挑衅、侮辱或贬损性评论，以及人身或政治攻击
+- The use of sexualized language or imagery, and/or sexual attention or advances of any kind / 使用与性相关的语言或图像，以及任何形式的性关注或性挑逗
+- Trolling, insulting or derogatory comments, and/or personal or political attacks / 挑衅、侮辱或贬损性评论，以及人身或政治攻击
 - Public or private harassment / 公开或私下骚扰
 - Publishing others' private information, such as a physical or email address, without their explicit permission / 未经明确许可发布他人的私人信息，如物理地址或电子邮件地址
-- Other conduct which could reasonably be considered inappropriate in a professional setting / 其他可被合理认为不适合专业场合的行为
+- Other conduct that could reasonably be considered inappropriate in a professional setting / 其他可被合理认为不适合专业场合的行为
 - **Data fabrication** — presenting fabricated, unlabeled, or mixed-source data as real operational data / **数据编造** — 将编造、未标注或混合来源的数据冒充真实运营数据（违反 ZWISERFIT Constitution Article I）
 
 ---
@@ -96,17 +96,17 @@ Community leaders will follow these Community Impact Guidelines in determining t
 
 **Community Impact / 社区影响：** A violation through a single incident or series of actions / 通过单一事件或一系列行为违规。
 
-**Consequence / 后果：** A warning with consequences for continued behavior. No interaction with the people involved for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban. / 附带持续行为后果的警告。在指定时间内不得与相关人员互动。包括避免在社区空间及社交媒体等外部渠道互动。违反这些条款可能导致临时或永久封禁。
+**Consequence / 后果：** A warning with consequences for continued behavior. Interaction with the individuals involved is banned for a specified period of time. This includes avoiding interactions in community spaces, as well as external channels such as social media. Violating these terms may lead to a temporary or permanent ban. / 附带持续行为后果的警告。在指定时间内不得与相关人员互动。包括避免在社区空间及社交媒体等外部渠道互动。违反这些条款可能导致临时或永久封禁。
 
 ### 3. Temporary Ban / 临时封禁
 
 **Community Impact / 社区影响：** A serious violation of community standards, including sustained inappropriate behavior / 严重违反社区标准，包括持续的不当行为。
 
-**Consequence / 后果：** A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved is allowed during this period. Violating these terms may lead to a permanent ban. / 在指定时间内禁止与社区进行任何形式的互动或公开沟通。在此期间，不得与相关人员进行任何公开或私下互动。违反这些条款可能导致永久封禁。
+**Consequence / 后果：** A temporary ban from any form of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved is allowed during this period. Violating these terms may lead to a permanent ban. / 在指定时间内禁止与社区进行任何形式的互动或公开沟通。在此期间，不得与相关人员进行任何公开或私下互动。违反这些条款可能导致永久封禁。
 
 ### 4. Permanent Ban / 永久封禁
 
-**Community Impact / 社区影响：** Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals / 表现出违反社区标准的行为模式，包括持续的不当行为、骚扰个人，或对某类群体的攻击或贬低。
+**Community Impact / 社区影响：** Demonstrating a pattern of violations of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals / 表现出违反社区标准的行为模式，包括持续的不当行为、骚扰个人，或对某类群体的攻击或贬低。
 
 **Consequence / 后果：** A permanent ban from any sort of public interaction within the community. / 永久禁止在社区内进行任何形式的公开互动。
 
@@ -136,17 +136,17 @@ For answers to common questions about this code of conduct, see the FAQ at [http
 
 ## ZWISERFIT Community Values / ZWISERFIT 社区价值观
 
-In addition to the universal Code of Conduct above, ZWISERFIT commits to these specific community values rooted in our [Constitution](./CONSTITUTION.md):
+In addition to the universal Code of Conduct above, ZWISERFIT is committed to following these community values, which are rooted in our [Constitution](./CONSTITUTION.md):
 
 除上述通用行为准则外，ZWISERFIT 承诺以下植根于[宪法](./CONSTITUTION.md)的具体社区价值观：
 
 | 价值观 / Value | 承诺 / Commitment |
 |:---|:---|
-| **数据诚信 / Data Integrity** | 不编造、不伪装、不混淆数据来源。每一条数据必须标注来源层级 `[L1/L2/L3]` |
-| **物理信任 / Physical Trust** | 尊重线下实体门店运营的现实。技术方案优先服务真实门店需求 |
-| **开源真透明 / Radical Transparency** | 成功与失败同样公开。架构决策、数据变更、生产事故全量归档 |
-| **AI协同非替代 / AI Collaboration** | AI代理辅助人类决策，不替代人类判断。保持 Human-in-the-Loop |
-| **共建者主权 / Contributor Sovereignty** | 贡献者对其贡献保留完整权利（Apache 2.0）。社区治理去中心化演进 |
+| **数据诚信 / Data Integrity** | 不编造、不伪装、不混淆数据来源。每一条数据必须标注来源层级 / Do not fabricate, disguise, or obfuscate data sources. Every piece of data must be clearly labeled with its source hierarchy. `[L1/L2/L3]` |
+| **物理信任 / Physical Trust** | 尊重线下实体门店运营的现实。技术方案优先服务真实门店需求 / Respect the realities of operating offline brick-and-mortar stores. Technical solutions should prioritize serving the actual needs of physical stores. |
+| **开源真透明 / Radical Transparency** | 成功与失败同样公开。架构决策、数据变更、生产事故全量归档 / Success and failure are equally transparent. Architectural decisions, data changes, and production incidents are fully archived. |
+| **AI协同非替代 / AI Collaboration** | AI代理辅助人类决策，不替代人类判断。保持 Human-in-the-Loop / AI agents may assist human decision-making, but should not replace human judgment.|
+| **共建者主权 / Contributor Sovereignty** | 贡献者对其贡献保留完整权利（Apache 2.0）。社区治理去中心化演进 / Contributors retain full rights to their contributions (Apache 2.0). The Decentralized Evolution of Community Governance |
 
 ---
 
