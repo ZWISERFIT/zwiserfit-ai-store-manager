@@ -6,7 +6,7 @@ failed_checks=()
 pass() { printf " PASS: %s\n" "$1"; }
 fail() { printf " FAIL: %s\n" "$1"; failed_checks+=("$1"); FAILED=1;}
 
-# 1. Check if requireed tools are installed
+# 1. Check if required tools are installed
 printf "\n── Checking required tools ──\n"
 for tool in git python3 node curl; do
     command -v "$tool" > /dev/null 2>&1 && pass "$tool is installed" || fail "$tool is not installed"
