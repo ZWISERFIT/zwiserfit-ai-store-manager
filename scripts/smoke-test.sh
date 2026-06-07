@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-set -euo pipefail
 
 FAILED=0
 failed_checks=()
