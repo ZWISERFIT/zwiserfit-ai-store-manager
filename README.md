@@ -21,9 +21,9 @@
 
 ---
 
-# ZWISERFIT AI Store Manager
+# ZWISERFIT
 
-**An AI Agent that runs a real gym. Now open source.**
+## Architecture gives fairness. The gate gives trust. Behavior sets the premium.
 
 [![GitHub stars](https://img.shields.io/github/stars/ZWISERFIT/zwiserfit-ai-store-manager?style=social)](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -33,9 +33,31 @@
 
 ---
 
-## What is this?
+## Why ZWF?
 
-A production-grade multi-AI-agent operating system for physical retail — battle-tested in a real gym that had been running at a loss for 7 consecutive years.
+**You exercise 4 times a week. Your insurance premium is the same as someone who never moves.**
+
+That's not fair. And for the first time in history, the technology exists to fix it.
+
+ZWISERFIT (ZWF) is the infrastructure that connects real physical behavior to fair outcomes — through **Web5 decentralized identity**, **PoPB proof-of-behavior protocol**, and **privacy-preserving computation**.
+
+**This is not a crypto project. There is no token. There is no speculation.** ZWF is a data infrastructure standard — the TCP/IP for human behavior data. Web5 gives you data sovereignty; PoPB gives the world verifiable truth.
+
+### The Five Steps from "Unfair" to "Co-builder"
+
+1. **Feel the unfairness** → "I work out. Why does my insurance treat me like I don't?"
+2. **See the possibility** → "ZWF's gate can prove my real activity. I have evidence now."
+3. **Experience sovereignty** → "My data lives in my DWN. ZWF can't access it. Insurers want to see? They ask me."
+4. **Exercise pricing power** → "6 months of verified activity. My premium drops 30%. Discipline, finally cashed in."
+5. **Become a co-builder** → "I'm not just using this — I'm telling people I care about. Fairness is worth spreading."
+
+> **Architecture gives fairness. The gate gives trust. Fairness + Trust = Pricing Power.**
+
+---
+
+## What Is This?
+
+A production-grade multi-AI-agent operating system for physical retail — battle-tested in a real gym that had been running at a loss for 7 consecutive years. Now open source, and its data pipeline is the proving ground for the ZWF-20 Health Behavior Data Standard.
 
 - **9 AI Agents** running 24/7 in production: store ops, brand, content, compliance, data verification
 - **118 active members**, 35–55 daily check-ins, **~380K verified sessions** over 7 years
@@ -43,7 +65,7 @@ A production-grade multi-AI-agent operating system for physical retail — battl
 - **~23,000 on-chain proof hashes** anchored to a consortium chain
 - **Data pipeline latency <2s** — IoT → Agent → On-chain
 
-This is not a demo. This is a live system that replaced a human-run gym operations team with an AI Agent corps. And it's all open source.
+This is **both** a live operating system for physical retail **and** the proving ground for a new data paradigm — where real human behavior can be verified, owned, and used to negotiate fair outcomes.
 
 **Read the full story:** [The founder who couldn't code trained 9 AI agents to run her gym](https://github.com/ZWISERFIT/ZWISERFIT/discussions/13)
 
@@ -175,7 +197,7 @@ npm run momo:start -- --store-id=store_002
 
 ## 🆘 We Need: Hardware / IoT / Embedded Systems Engineers
 
-This project's biggest bottleneck is the IoT data pipeline. If you know your way around serial comms, edge computing, or hardware integration — we need you.
+The IoT data pipeline is the bridge between physical proof and fair outcomes. If you know serial comms, MQTT, or edge computing — your contribution directly powers the fairness infrastructure.
 
 | Role | What You'll Do | Skills Needed |
 |------|---------------|--------------|
@@ -188,7 +210,7 @@ This project's biggest bottleneck is the IoT data pipeline. If you know your way
 
 ---
 
-## Roadmap: ZWF-20 Health Data Protocol
+## Roadmap: ZWF-20 Health Behavior Data Protocol
 
 | Phase | Timeline | Core Task | Milestone | Status |
 |:------|:--------:|-----------|:---------:|:-----:|
@@ -201,7 +223,7 @@ This project's biggest bottleneck is the IoT data pipeline. If you know your way
 
 ## Contributing
 
-ZWISERFIT is not "someone's project" — it's infrastructure for the physical retail industry. Every contribution shapes how millions of stores will operate.
+ZWISERFIT is not a project — it's a fairness infrastructure. Every contribution helps someone, somewhere, prove that their behavior deserves a better outcome.
 
 ### Find Your Entry Point
 
