@@ -21,9 +21,9 @@
 
 ---
 
-# ZWISERFIT
+# ZWISERFIT · AI + Web5 大健康基础数据设施
 
-## Architecture gives fairness. The gate gives trust. Behavior sets the premium.
+**AI + Web5 大健康基础数据设施 — 用户拥有自己的健康数据，协议确保数据属于用户、不属于平台。**
 
 [![GitHub stars](https://img.shields.io/github/stars/ZWISERFIT/zwiserfit-ai-store-manager?style=social)](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -33,15 +33,22 @@
 
 ---
 
+
 ## Why ZWF?
 
 **You exercise 4 times a week. Your insurance premium is the same as someone who never moves.**
 
 That's not fair. And for the first time in history, the technology exists to fix it.
 
-ZWISERFIT (ZWF) is the infrastructure that connects real physical behavior to fair outcomes — through **Web5 decentralized identity**, **PoPB proof-of-behavior protocol**, and **privacy-preserving computation**.
+In 2025, Leke (乐刻健身) × Ping An Insurance proved the market exists: verified workout frequency → premium discounts. Behavioral data is real economic value. But the data belongs to the platform, not the user.
 
-**This is not a crypto project. There is no token. There is no speculation.** ZWF is a data infrastructure standard — the TCP/IP for human behavior data. Web5 gives you data sovereignty; PoPB gives the world verifiable truth.
+ZWISERFIT (ZWF) = **AI + Web5 大健康基础数据设施** — the infrastructure that connects real physical behavior to fair outcomes. Not a crypto project. Not a token. A data infrastructure standard where **users own their health data**.
+
+- **AI** → 9-Agent军团24/7运营 · 行为验证 · 多模态传感器融合
+- **Web5** → DID确权 · MPC隐私 · 链上存证 · 用户拥有自己的健康数据
+- **大健康基础数据设施** → PoPB v1.0 MIT开源 · 协议层 · 不是应用层
+
+**Where PoPB fits:** PoPB (Proof of Physical Behavior) is the core verification protocol — the engine that makes physical activity verifiable. ZWISERFIT is the full data infrastructure stack built around it.
 
 ### The Five Steps from "Unfair" to "Co-builder"
 
@@ -51,13 +58,13 @@ ZWISERFIT (ZWF) is the infrastructure that connects real physical behavior to fa
 4. **Exercise pricing power** → "6 months of verified activity. My premium drops 30%. Discipline, finally cashed in."
 5. **Become a co-builder** → "I'm not just using this — I'm telling people I care about. Fairness is worth spreading."
 
-> **Architecture gives fairness. The gate gives trust. Fairness + Trust = Pricing Power.**
+> **乐刻×平安证明了"运动行为数据值钱"。ZWF确保"数据属于用户，不属于平台"。**
 
 ---
 
 ## What Is This?
 
-A production-grade multi-AI-agent operating system for physical retail — battle-tested in a real gym that had been running at a loss for 7 consecutive years. Now open source, and its data pipeline is the proving ground for the ZWF-20 Health Behavior Data Standard.
+A **大健康基础数据设施** proving ground — a production-grade multi-AI-agent operating system for physical retail, battle-tested in a real gym running for 7 years. Now open source, and its data pipeline validates the ZWF-20 Health Behavior Data Standard.
 
 - **9 AI Agents** running 24/7 in production: store ops, brand, content, compliance, data verification
 - **118 active members**, 35–55 daily check-ins, **~380K verified sessions** over 7 years
@@ -66,10 +73,6 @@ A production-grade multi-AI-agent operating system for physical retail — battl
 - **Data pipeline latency <2s** — IoT → Agent → On-chain
 
 This is **both** a live operating system for physical retail **and** the proving ground for a new data paradigm — where real human behavior can be verified, owned, and used to negotiate fair outcomes.
-
-**Read the full story:** [The founder who couldn't code trained 9 AI agents to run her gym](https://github.com/ZWISERFIT/ZWISERFIT/discussions/13)
-
----
 
 ## Quick Start
 
