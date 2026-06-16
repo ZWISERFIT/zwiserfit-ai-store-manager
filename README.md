@@ -21,9 +21,9 @@
 
 ---
 
-# ZWISERFIT · AI + Web5 大健康基础数据设施
+# ZWISERFIT · 大健康行为数据基础设施 · AI×Web5
 
-**AI + Web5 大健康基础数据设施 — 用户拥有自己的健康数据，协议确保数据属于用户、不属于平台。**
+**大健康行为数据基础设施 · AI×Web5 — 用户拥有自己的健康数据，协议确保数据属于用户、不属于平台。**
 
 [![GitHub stars](https://img.shields.io/github/stars/ZWISERFIT/zwiserfit-ai-store-manager?style=social)](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -42,11 +42,11 @@ That's not fair. And for the first time in history, the technology exists to fix
 
 In 2025, Leke (乐刻健身) × Ping An Insurance proved the market exists: verified workout frequency → premium discounts. Behavioral data is real economic value. But the data belongs to the platform, not the user.
 
-ZWISERFIT (ZWF) = **AI + Web5 大健康基础数据设施** — the infrastructure that connects real physical behavior to fair outcomes. Not a crypto project. Not a token. A data infrastructure standard where **users own their health data**.
+ZWISERFIT (ZWF) = **大健康行为数据基础设施 · AI×Web5** — the infrastructure that connects real physical behavior to fair outcomes. Not a crypto project. Not a token. A data infrastructure standard where **users own their health data**.
 
 - **AI** → 9-Agent军团24/7运营 · 行为验证 · 多模态传感器融合
 - **Web5** → DID确权 · MPC隐私 · 链上存证 · 用户拥有自己的健康数据
-- **大健康基础数据设施** → PoPB v1.0 MIT开源 · 协议层 · 不是应用层
+- **大健康行为数据基础设施** → PoPB v1.0 MIT开源 · 协议层 · 不是应用层
 
 **Where PoPB fits:** PoPB (Proof of Physical Behavior) is the core verification protocol — the engine that makes physical activity verifiable. ZWISERFIT is the full data infrastructure stack built around it.
 
@@ -64,7 +64,7 @@ ZWISERFIT (ZWF) = **AI + Web5 大健康基础数据设施** — the infrastructu
 
 ## What Is This?
 
-A **大健康基础数据设施** proving ground — a production-grade multi-AI-agent operating system for physical retail, battle-tested in a real gym running for 7 years. Now open source, and its data pipeline validates the ZWF-20 Health Behavior Data Standard.
+A **大健康行为数据基础设施** proving ground — a production-grade multi-AI-agent operating system for physical retail, battle-tested in a real gym running for 7 years. Now open source, and its data pipeline validates the ZWF-20 Health Behavior Data Standard.
 
 - **9 AI Agents** running 24/7 in production: store ops, brand, content, compliance, data verification
 - **118 active members**, 35–55 daily check-ins, **~380K verified sessions** over 7 years
