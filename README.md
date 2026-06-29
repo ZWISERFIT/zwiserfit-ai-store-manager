@@ -15,6 +15,8 @@
 ████████████████████████████████████████████████████████████████████
 -->
 
+[![Product Hunt](https://img.shields.io/badge/Product%20Hunt-ZWISERFIT-orange?style=flat-square&logo=producthunt)](https://www.producthunt.com/posts/zwiserfit)
+
 > **Web5 Product Case Hash Attestation · 产品案例哈希存证**
 > `SHA-256: 39ad50b47f4401ecc94a361bb4d1f47a2840c7e867621c259ecdf88fa6150a55`
 > 本仓库内容受 Web5 哈希存证锚定，确保代码、架构、数据与开源历史不可篡改、可独立核验。
