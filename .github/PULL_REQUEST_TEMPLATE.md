@@ -2,12 +2,25 @@
 
 <!-- 提交前请确认以下事项 / Please confirm the following before submitting. -->
 
-- [ ] 代码通过本地测试 / Code passes local tests
-- [ ] 新增功能有对应测试覆盖 / New features have corresponding test coverage
-- [ ] 文档已同步更新（如有接口变更）/ Documentation updated (if API changes)
-- [ ] Commit message 符合规范（`feat:`, `fix:`, `docs:`, `chore:`, `refactor:`, `test:`）
-- [ ] 关联 Issue 已在描述中引用（`Closes #123`）
-- [ ] 如果是数据相关 PR，数据声明了来源层级 `[L1/L2/L3]`
+* [ ] 代码通过本地测试 / Code passes local tests
+
+* [ ] 新增功能有对应测试覆盖 / New features have corresponding test coverage
+
+* [ ] 文档已同步更新（如有接口变更）/ Documentation updated (if API changes)
+
+* [ ] Commit message 符合规范（`feat:`, `fix:`, `docs:`, `chore:`, `refactor:`, `test:`）
+
+* [ ] 关联 Issue 已在描述中引用（`Closes #123`）
+
+* [ ] 如果是数据相关 PR，数据声明了来源层级 `[L1/L2/L3]`
+
+* [ ] Ran `scripts/smoke_test.sh` locally
+
+* [ ] No new `shellcheck` warnings
+
+* [ ] PR follows the existing project code style
+
+* [ ] Documentation updated if needed
 
 ---
 
