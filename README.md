@@ -15,7 +15,7 @@
 ████████████████████████████████████████████████████████████████████
 -->
 
-[![Product Hunt](https://img.shields.io/badge/Product%20Hunt-ZWISERFIT-orange?style=flat-square&logo=producthunt)](https://www.producthunt.com/posts/zwiserfit)
+[![Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=zwiserfit)](https://www.producthunt.com/posts/zwiserfit)
 
 > **Web5 Product Case Hash Attestation · 产品案例哈希存证**
 > `SHA-256: 39ad50b47f4401ecc94a361bb4d1f47a2840c7e867621c259ecdf88fa6150a55`
