@@ -69,6 +69,30 @@
 
 ## Pull Request 流程
 
+
+### Contribution Workflow
+
+The following diagram illustrates the typical contribution lifecycle from forking the repository to merging a Pull Request.
+
+```mermaid
+graph TD
+    A[Fork the repo] --> B[Clone your fork]
+    B --> C[Create feature branch]
+    C --> D[Make changes]
+    D --> E[Run smoke_test.sh]
+    E --> F{PASS?}
+    F -->|Yes| G[Push to your fork]
+    F -->|No| D
+    G --> H[Open Pull Request]
+    H --> I[Auto-review by Luna]
+    I --> J[Technical review by Tristan]
+    J --> K{Merge?}
+    K -->|Yes| L[🎉 Merged! + CREDIT]
+    K -->|No| M[Address feedback]
+    M --> G
+
+```
+
 ### 1. 准备工作
 
 ```bash
